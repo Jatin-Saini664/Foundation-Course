@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - lec0019",
+            "request": "launch",
+            "mainClass": "lec0019",
+            "projectName": "Foundation Course_da62c12e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - lec004",
+            "request": "launch",
+            "mainClass": "lec004",
+            "projectName": "Foundation Course_da62c12e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - specialreverse",
+            "request": "launch",
+            "mainClass": "specialreverse",
+            "projectName": "Foundation Course_da62c12e"
+        },
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
