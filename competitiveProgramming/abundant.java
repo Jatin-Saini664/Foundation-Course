@@ -27,13 +27,15 @@ public class abundant {
         for(int i=2;i<=n;i++){
             count=0;
             for(int j=12;j<=i/2;j++){
-                if(arr[j]==true||arr[i-j]==true){
+                if(arr[j]==true&&arr[i-j]==true){
                     count=1;
                     break;
                 }
             }
-            if(count==0)
+            if(count==0){
+                System.out.print(i+" ");
                 sum=sum.add(BigInteger.valueOf(i));
+            }
         }
         // System.out.println(arr[16]);
         System.out.println(sum);
