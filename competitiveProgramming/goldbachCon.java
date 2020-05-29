@@ -33,20 +33,25 @@ public class goldbachCon {
         boolean[] arr = seive(n);
         int[] a = square(n);
         int count=0;
-        for(int i=2;i<n;i++){
-            count=0;
-            if(arr[i]==false&&i%2!=0){
-                for(int j=0;a[j]<i;j++){
-                    if(arr[i-a[j]]==true){
-                        count=1;
-                        break;
-                    }
-                }
-                if(count==0){
-                    System.out.println(i);
-                    break;
-                }
-            }
+        // for(int i=2;i<n;i++){
+        //     count=0;
+        //     if(arr[i]==false&&i%2!=0){
+        //         for(int j=0;a[j]<i;j++){
+        //             if(arr[i-a[j]]==true){
+        //                 count=1;
+        //                 break;
+        //             }
+        //         }
+        //         if(count==0){
+        //             System.out.println(i);
+        //             break;
+        //         }
+        //     }
+        // }
+        for(int i=900;i<1600;i++){
+            if(arr[i])
+            System.out.print(i+" ");
         }
+        System.out.println(arr[1601]);
     }
 }
